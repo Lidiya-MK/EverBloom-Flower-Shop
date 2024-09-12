@@ -1,0 +1,474 @@
+body{
+  font-family: "Mynerve", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin:0px;
+  padding:0px;
+  background-color: black;
+  color:white;
+}
+
+.niconne-regular {
+  font-family: "Niconne", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.open-sans {
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+
+}
+/* ALL-SECTIONS */
+
+.section-01{
+background-color: black;
+width:100%;
+margin: 0px;
+height: 100vh;
+}
+/* ALL IMAGES */
+
+
+
+.logo-grey{
+  display:none;
+
+}
+
+.second-banner{
+
+  height:300px
+
+}
+
+.giveaway{
+  height:300px;
+}
+
+
+
+.logo-blue{
+  height:30px
+}
+
+/* SECTION-01*/
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.1); 
+backdrop-filter: blur(10px); 
+-webkit-backdrop-filter: blur(10px);
+border-radius: 10px; 
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+position: fixed; 
+top: 0; 
+left: 0;
+width: 100%; 
+z-index: 1000; 
+
+padding: 20px 20px; 
+height: 50px; 
+}
+
+.logo-brand {
+  display: flex;
+  align-items: center; 
+}
+
+.logo-red {
+  height: 100px;
+}
+
+.brand {
+  font-family: "Niconne", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  display: inline-block;
+  font-size: 8vh;
+  margin-left: -50px; 
+}
+
+.nav-cont {
+
+}
+
+.navlist {
+  display: flex; 
+  list-style: none; 
+  padding: 0;
+  padding-right: 100px;
+  margin: 0;
+}
+
+.navlink {
+  margin-left: 70px;
+  font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+}
+
+.navlink a {
+  text-decoration: none;
+  color:#888B88;
+  font-size: 1em;
+
+
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-text {
+font-family: "Niconne", cursive;
+font-weight: 500;
+font-style: normal;
+color: transparent; 
+font-size: 12vh;
+margin: 0;
+margin-top: 80px;
+background: linear-gradient(to right, #F00B51 5%, white 20%, white 80%, #F00B51 95%); /* Gradient color for edges */
+-webkit-background-clip: text; 
+background-clip: text; 
+}
+
+
+.main-button {
+  background-color: #F00B51;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  font-family: "Mynerve", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vh;
+}
+
+.button-link {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.logo-red {
+  transition: transform 0.2s ease; 
+}
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.wedding{
+  background-color: #F9F3DF;
+  color: #F28D35;
+  font-family: "Mynerve", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.wedding-flower{
+  color: #3C4245 ;
+}
+
+.flower-section {
+  width: 85vw;
+  height: 70vh; 
+  border-radius: 20px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 5vh auto;
+  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 15%;
+  transition: all 0.4s ease; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: smaller;
+  margin-bottom: 200px;
+
+}
+
+.house-deco{
+  background-color: #EDF5E1;
+  color: #5C8549;
+  font-family: "Mynerve", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.house-deco-flower{
+color: #403F3A ;
+}
+
+.gift{
+  background-color: #FFF3E3;
+  color: #E05E5E;
+  font-family: "Mynerve", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gift-flower{
+  color:#56423E;
+}
+
+.valentine{
+  background-color: #FDE2E4;
+  color: #FF6B6B ;
+  font-family: "Mynerve", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+.garden{
+  background-color: #E1F7DF;
+  color: #5A9C6E ;
+  font-family: "Mynerve", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.garden-flower{
+  color:#434B3B;
+
+}
+
+.funeral{
+  background-color: #ECEFF4;
+  color: #708090;
+  font-family: "Mynerve", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.funeral-flower{
+  color:#4B515A;
+
+}
+.flower-item img, .flower-item p {
+  transition: transform 0.8s ease, font-size 0.8s ease; 
+}
+
+
+
+.flower-section .flower-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
+
+.flower-section .flower-item p {
+  font-size: 14px; 
+}
+
+
+.flower-section.grow .flower-item img {
+  width: 170px;
+  height: 170px;
+  border-radius: 10px; 
+}
+
+.flower-section.grow .flower-item p {
+  font-size: 20px; 
+}
+.valentine-flower{
+  color:#5D4954;
+
+}
+
+.flower-section.grow {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  padding-top: 5%;
+  box-shadow: none;
+  transition: all  ease;
+}
+
+.flower-section h1 {
+  margin-bottom: 0px;
+  transition: all 0.3s ease;
+  font-size: 2.5rem;
+}
+
+
+.flower-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  transition: all 0.3s ease;
+}
+
+.flower-item {
+  text-align: center;
+}
+
+.flower-item img {
+  width: 150px; 
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.flower-item p {
+  margin-top: 10px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .flower-section {
+    margin: 20px 0;
+    padding: 10px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .flower-section {
+    margin: 10px 0;
+    padding: 5px; 
+  }
+}
+
+
+
+  /* footer */
+
+  
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 30px;
+  background-color: #000000; 
+  color: #888B88;
+  padding: 40px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Niconne", cursive;
+    font-style: normal;
+    font-size: 4vh;
+    font-weight: lighter;
+}
+
+.logo-blue {
+  width: 200px;
+  padding:0px;
+  height: auto;
+}
+
+.slogan-blue {
+  background: linear-gradient(to right, #3079CF, #e6e6e6, #3079CF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top:-20px;
+}
+
+
+
+.collection-section, .explore-section, .connect-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.column-one-title, .column-two-title, .connect-section-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #ffffff; 
+  font-weight: lighter;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.item {
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+
+.item a {
+  color: #888B88;
+  text-decoration: none;
+}
+
+.item a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+
+.connect-section ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.connect-section .item {
+  cursor: pointer;
+}
+
+.connect-section .item:hover {
+  text-decoration: underline;
+  color:white;
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}
